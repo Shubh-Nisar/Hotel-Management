@@ -1,0 +1,27 @@
+.head1{
+    font-size: 20px;
+    text-align: center;
+    padding: 6px;
+    color: white;
+}
+.qu1{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.coupon1{
+    align-self:center;
+}
+body{
+    background: linear-gradient(to right,  rgb(195, 159, 219), rgb(224, 244, 246));
+}
+.row{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.card{
+    height: 380px;
+    border-radius: 5%;
+    border: 5px solid black;
+}
