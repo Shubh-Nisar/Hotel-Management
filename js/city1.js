@@ -17,3 +17,7 @@ $('.collapsible').collapsible();
 
 // CAROUSEL
 $('.carousel').carousel();
+
+// DATEPICKER
+$('.datepicker').datepicker();
+          
