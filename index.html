@@ -29,29 +29,35 @@
 
     <!-- NavBar -->
     <ul id="dropdown1" class="dropdown-content">
-        <li><a href="city1.html">Mumbai</a></li>
-        <li><a href="city2.html">Delhi</a></li>
-        <li><a href="city3.html">Chicago</a></li>
-        <li><a href="city4.html">Sydney</a></li>
-    </ul>
-    <nav class="main">
-      <div class="nav-wrapper red darken-4">
-        <a href="index.html" class="brand-logo">IVEX</a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="" class="dropdown-button" data-activates="dropdown1">Location<i class="material-icons right">arrow_drop_down</i></a></li>
-          <li><a href="coupons.html">Coupons</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-        <ul class="side-nav" id="mobile-demo">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="" class="dropdown-button" data-activates="dropdown1">Location<i class="material-icons right">arrow_drop_down</i></a></li>
-          <li><a href="coupons.html">Coupons</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-      </div>
-    </nav>
+      <li><a href="city1.html">Mumbai</a></li>
+      <li><a href="city2.html">Delhi</a></li>
+      <li><a href="city3.html">Chicago</a></li>
+      <li><a href="city4.html">Sydney</a></li> 
+  </ul>
+  <ul id="dropdown2" class="dropdown-content">
+    <li><a href="city1.html">Mumbai</a></li>
+    <li><a href="city2.html">Delhi</a></li>
+    <li><a href="city3.html">Chicago</a></li>
+    <li><a href="city4.html">Sydney</a></li>
+  </ul>
+  <nav class="main">
+    <div class="nav-wrapper red">
+      <a href="index.html" class="brand-logo">IVEX</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="" class="dropdown-button" data-activates="dropdown2">Location<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a href="coupons.html">Coupons</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="" class="dropdown-button" data-activates="dropdown1">Location<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a href="coupons.html">Coupons</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
 
     <div class="photos">
     <!-- Image Slider -->
@@ -213,7 +219,7 @@
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
-
+      <!--JS for initialising Materialize-->
        <script>
           $(".button-collapse").sideNav();
           $(".dropdown-trigger").dropdown();
@@ -223,7 +229,6 @@
           $(document).ready(function(){
               $('.collapsible').collapsible();
           });
-        
        </script>
     </body>
   </html>
