@@ -12,6 +12,12 @@ body{
     width: 461px !important;
 }
 
+@media(max-width:1470px){
+    #image{
+        width: 600px !important;
+        height: 450px !important;
+    }
+}
 @media(max-width:1440px){
     #image{
         width: 530px !important;
