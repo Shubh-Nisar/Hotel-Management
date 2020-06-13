@@ -1,5 +1,5 @@
 .container{
-    width: 74.3%;
+    width: 74.3% !important;
 }
 
 
@@ -12,6 +12,12 @@ body{
     width: 461px !important;
 }
 
+@media(max-width:1920px){
+    #image{
+        width: 650px !important;
+        height: 520px !important;
+    }
+}
 @media(max-width:1600px){
     #image{
         width: 600px !important;
